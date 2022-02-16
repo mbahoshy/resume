@@ -20,7 +20,14 @@ const headerStyle = {
 const Sidebar = () => {
 
   return (
-    <div className="paper-right" style={{ fontSize: '10pt' }}>
+    <div style={{
+      fontSize: '10pt',
+      width: '2in',
+      display: 'inline-block',
+      verticalAlign: 'top',
+      backgroundColor: '#f7f7f7'
+      
+      }}>
       <div style={{ padding: '20px' }}>
         <div style={headerStyle}>Contact</div>
         <div>mbahoshy@gmail.com</div>

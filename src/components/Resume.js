@@ -11,15 +11,32 @@ const nameStyle = {
   fontSize: '22px',
   borderBottom: '1px solid #ccc'
 }
+const paperStyle = {
+  width: '8.5in',
+  // width: '100%',
+  height: '11in',
+  margin: '0'
+}
+
+const paperRightStyle = {
+  width: '6.5in',
+  display: 'inline-block'
+}
 
 
 const Resume = () => {
 
   return (
-    <div className="paper">
+    <div
+      style={paperStyle}
+      // className="paper"
+    >
       <Header />
       <Sidebar />
-      <div className="paper-left">
+      <div
+        style={paperRightStyle}
+        // className="paper-left"
+      >
         <div style={{ padding: '20px' }}>
 
           <Section
