@@ -1,5 +1,8 @@
 import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { MARGIN_LEFT, SIDEBAR_HEIGHT, SIDEBAR_WIDTH } from '../constants';
+import IconText from './IconText';
 
 
 const spacerStyle = {
@@ -22,40 +25,39 @@ const Sidebar = () => {
   return (
     <div style={{
       fontSize: '10pt',
-      width: '2in',
+      width: SIDEBAR_WIDTH,
+      height: SIDEBAR_HEIGHT,
       display: 'inline-block',
       verticalAlign: 'top',
       backgroundColor: '#f7f7f7'
       
       }}>
-      <div style={{ padding: '20px' }}>
+      <div style={{ padding: `20px 20px 20px ${MARGIN_LEFT}` }}>
         <div style={headerStyle}>Contact</div>
         <div>mbahoshy@gmail.com</div>
         <div>(253) 228-8586</div>
         <div>Denver, CO</div>
-        <div>
-          <a>LinkedIn</a>
-          <LinkedInIcon />
-          <i className="fa-brands fa-linkedin"></i>
+        <div style={{ marginTop: '10px', marginBottom: '3px' }}>
+          <IconText
+            text="LinkedIn"
+            href="https://www.linkedin.com/in/mbahoshy/"
+            icon={<LinkedInIcon />}
+          />
         </div>
-        {/* <h3>Preferred Stack</h3>
-        <p>
-          Node - Mongo - React
-        </p> */}
-        <div style={spacerStyle}></div>
-        <div style={headerStyle}>Roles</div>
-        <div>Project Manager</div>
-        <div>Lead Developer</div>
+        <div>
+          <IconText
+            text="GitHub"
+            href="https://github.com/mbahoshy/"
+            icon={<GitHubIcon />}
+          />
+        </div>
 
-        <div>Design and Estimate New Projects</div>
-        <div>Interviewing and Onboarding</div>
-        <div>Manage ticketing system and accounting integration</div>
-        <div>Customer Relations</div>
-        <div>Emergency Technical support</div>
 
         <div style={spacerStyle}></div>
-        <div style={headerStyle}>Skills</div>
+
+        <div style={headerStyle}>Technical Skills</div>
         <div>React</div>
+        <div>Angular</div>
         <div>Node/Express</div>
         <div>Javascript</div>
         <div>C#</div>
@@ -63,6 +65,25 @@ const Sidebar = () => {
         <div>Go</div>
         <div>Mongo</div>
         <div>SQL</div>
+        <div>NoSQL</div>
+        <div>RESTful design</div>
+
+
+        <div style={spacerStyle}></div>
+        <div style={headerStyle}>Roles</div>
+        <div>Project Manager</div>
+        <div>Lead Developer</div>
+        <div>Project Architect</div>
+
+        <div>Scrum Lead</div>
+
+        <div>Design and Estimate New Projects</div>
+        <div>Interviewing and Onboarding</div>
+        <div>Manage ticketing system and accounting integration</div>
+        <div>Customer Relations</div>
+        <div>Emergency Technical support</div>
+
+
 
       </div>
     </div>

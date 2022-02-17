@@ -1,41 +1,31 @@
 import React from 'react';
+import { MARGIN_LEFT, MARGIN_RIGHT, HEADER_HEIGHT } from '../constants';
 
-const nameStyle2 = {
+const containerStyle = {
+  height: HEADER_HEIGHT,
   width: '100%',
   backgroundColor: '#1d1d5e',
-  // backgroundColor: '#35359c',
-  // backgroundColor: 'rgb(64 64 64)',
   fontFamily: 'Helvetica',
-  // fontFamily: 'Montserrat',
-  // fontFamily: 'Inter',
   fontSize: '20pt',
-  borderBottom: '1px solid #ccc',
   color: 'white',
-  // textAlign: 'center',
-  padding: '20px 0',
 }
 
 const Header = () => {
   return (
-    <div style={nameStyle2}>
-    <div style={{
-      display: 'flex',
-      padding: '0 20px'
-    }}>
-      <div style={{ flex: '1' }}>Matthew Ross</div>
-      <div style={{
-        // fontSize: '16pt',
-        fontStyle: 'italic'
-        }}>Senior Project Manager</div>
+    <div style={containerStyle}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          height: '100%',
+          padding: `0 ${MARGIN_LEFT} 0 ${MARGIN_RIGHT}`
+        }}>
+          <div style={{ flex: '1' }}>Matthew Ross</div>
+          <div style={{
+            // fontSize: '16pt',
+            fontStyle: 'italic'
+            }}>Senior Project Manager</div>
+        </div>
     </div>
-    {/* <span style={{ padding: '0 20px' }}>
-      Matthew Ross
-      <span style={{ float: 'right' }}>Senior Project Manager</span>
-      <br />
-
-    </span> */}
-    {/* <i>Senior Project Manager</i> */}
-  </div>
   )
 }
 
