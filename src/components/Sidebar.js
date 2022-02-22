@@ -67,6 +67,7 @@ const Sidebar = () => {
         <div>SQL</div>
         <div>NoSQL</div>
         <div>RESTful design</div>
+        <div>Scrum Master</div>
 
 
         <div style={spacerStyle}></div>
