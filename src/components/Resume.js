@@ -67,28 +67,37 @@ const Resume = () => {
             title="Silver Oak Wineries"
           >
             <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
+              Actively managed a family of four ecommerce web applications. Built and maintained custom ERP system
+              to manage purchase orders including payment, shipment, and accounting integration.
+              {/* Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains. */}
             </p>
           </Section>
           <Section
-            title="Concept Services"
+            title="Concept Services - Foodservice Equipment"
           >
             <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
+              Designed and developed an import wizard tool to transition projects from a quoting platform
+              to Sage ERP. This process famously reduced a manual 4hr import process to 15 minutes.
+            </p>
+            <p>
+              Architected an ecommerce platform with complex customizable authentication.
             </p>
           </Section>
           <Section
             title="MACOM"
           >
             <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
+              Created a family of internal administrative appliactions. The central application was a product hub
+              that served as a central respotistory of product data. 
             </p>
           </Section>
           <Section
             title="Four Seasons Heating & Cooling"
           >
             <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
+              Created Mobile and Desktop web based applications to track material pickups and schedule inspections
+              across many jobistes.
+
             </p>
           </Section>
           <Section

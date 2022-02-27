@@ -66,23 +66,25 @@ const Sidebar = () => {
         <div>Mongo</div>
         <div>SQL</div>
         <div>NoSQL</div>
-        <div>RESTful design</div>
-        <div>Scrum Master</div>
+        {/* <div>RESTful design</div> */}
 
 
         <div style={spacerStyle}></div>
         <div style={headerStyle}>Roles</div>
+        <div>Technical Business Consulting</div>
         <div>Project Manager</div>
         <div>Lead Developer</div>
         <div>Project Architect</div>
+        <div>Scrum Master</div>
+        <div>New Project Development</div>
+        <div>Customer Relationship</div>
 
-        <div>Scrum Lead</div>
-
+{/* 
         <div>Design and Estimate New Projects</div>
         <div>Interviewing and Onboarding</div>
         <div>Manage ticketing system and accounting integration</div>
         <div>Customer Relations</div>
-        <div>Emergency Technical support</div>
+        <div>Emergency Technical support</div> */}
 
 
 
