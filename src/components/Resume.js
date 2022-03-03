@@ -45,22 +45,22 @@ const Resume = () => {
           >
             <p>
               In 2014 I joined SmartSource Management as a Jr. developer working out of Seattle.
-              We specialized in providing custom solutions to business is all aspects of their operations.
-              This included system integration, administration tools, automation, and business strategy.
+              We specialized in providing technical and business consulting for companies of all sizes.
+              {/* We specialized in providing custom solutions to business is all aspects of their operations. */}
+              This included system integration, administration tools, automation, ecommerce, and business strategy.
             </p>
             <p>
-              By 2017 I was managing several clients - from quoting, design, and architecture through the implementation and delivery.
-              During this time we expanded our services, providing an incubator space and engineering services for companies developing IOT solutions.
-              I was moved out to Denver, and oversaw the smooth transition of our existing clients to our newly branded company, Solderworks.
+              By 2017 I was managing several clients - from quoting, design, and architecture through implementation and delivery.
+              During this time we expanded our services and launched the Solderworks brand.
+              Solderworks provided an incubator space and engineering services for companies developing IOT solutions.
+              I was moved out to Denver, and oversaw the smooth transition of our existing clients to our newly branded company.
             </p>
             <p>
-              In 2020, Solderworks was acquired by BIRD Analytics - a Business Analytics and Intelligence for Big Data company.
+              In 2021, Solderworks was acquired by BIRD Analytics - an analytics and intelligence solution for big data.
               I was promoted to head of development, and oversaw our US and India teams.
-              I worked to integrate these two teams - developing culture, company processes, and technical advisement.
-              I continued to maintain relationships with out existing clients, and oversaw the quality of our deliverables.
-              In addition, I tracked the health and profitability of our department.
-
-
+              During this transition, I worked to develop culture in my department, institute company processes, and offer technical advisement.
+              As a department head, I tracked the health and profitability of all projects in our department.
+              I continued to maintain relationships with our existing clients, and oversaw the continued quality of our deliverables.
             </p>
           </Section>
           <Section
@@ -68,23 +68,39 @@ const Resume = () => {
           >
             <p>
               Actively managed a family of four ecommerce web applications. Built and maintained custom ERP system
-              to manage purchase orders including payment, shipment, and accounting integration.
+              to process purchase orders including payment, shipment, and accounting integration.
               {/* Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains. */}
             </p>
           </Section>
           <Section
-            title="Concept Services - Foodservice Equipment"
+            title="Concept Services"
+            minititle="Foodservice Equipment"
           >
             <p>
-              Designed and developed an import wizard tool to transition projects from a quoting platform
+              Designed and developed an integrated import tool to transition projects from a quoting platform
               to Sage ERP. This process famously reduced a manual 4hr import process to 15 minutes.
+              Created an ecommerce platform with complex authentication layers and customizable shop experiences.
             </p>
+          </Section>
+          <Section
+            title="WineXRay"
+          >
             <p>
-              Architected an ecommerce platform with complex customizable authentication.
+              Worked with the founder to use his proprietary method of measuring wine phenolics to create a SAAS product.
+              This service provides rapid insight to the phenolic properties of berries and wine, enabling wine makers to make
+              real-time data driven decisions.
             </p>
           </Section>
           <Section
             title="MACOM"
+          >
+            <p>
+              Created a family of internal administrative applications, including a central product respotistory that provides
+              APIs, authentication, and priviledged file access to a variety of applications.
+            </p>
+          </Section>
+          <Section
+            title="Allegro Microsystems"
           >
             <p>
               Created a family of internal administrative appliactions. The central application was a product hub
@@ -96,31 +112,17 @@ const Resume = () => {
           >
             <p>
               Created Mobile and Desktop web based applications to track material pickups and schedule inspections
-              across many jobistes.
+              across jobistes.
 
             </p>
           </Section>
-          <Section
+          {/* <Section
             title="FEDA"
           >
             <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
+              Priviledged
             </p>
-          </Section>
-          <Section
-            title="Allegro Microsystems"
-          >
-            <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
-            </p>
-          </Section>
-          <Section
-            title="WineXRay"
-          >
-            <p>
-              Created ERP system that integated traditional POS and eCommerce purchase orders with Great Plains.
-            </p>
-          </Section>
+          </Section> */}
         </div>
 
       </div>

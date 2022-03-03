@@ -57,10 +57,17 @@ const Sidebar = () => {
 
         <div style={headerStyle}>Technical Skills</div>
         <div>React</div>
+        <div>Redux</div>
+        <div>Webpack</div>
         <div>Angular</div>
         <div>Node/Express</div>
+        <div>NextJS</div>
         <div>Javascript</div>
+        <div>HTML/HTML5</div>
+        <div>CSS/CSS3</div>
+        <div>Flexbox</div>
         <div>C#</div>
+        <div>.NET</div>
         <div>Python</div>
         <div>Go</div>
         <div>Mongo</div>
