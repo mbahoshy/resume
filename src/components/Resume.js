@@ -111,7 +111,8 @@ const Resume = () => {
             </p>
           </Section>
           <Section
-            title="Four Seasons Heating & Cooling"
+            title="Four Seasons"
+            minititle="Heating & Cooling"
           >
             <p>
               Created Mobile and Desktop web based applications to track material pickups and schedule inspections
