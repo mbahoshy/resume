@@ -19,13 +19,14 @@ const containerStyle = {
   marginLeft: '1in',
   marginRight: '1in',
   overflowY: 'hidden',
-  fontSize: '12pt'
+  fontSize: '10pt'
 }
 
 const headerStyle = {
-  color: '#1d1d5e',
+  // color: '#1d1d5e',
+  color: 'rgb(96 96 96)',
   fontWeight: '600',
-  fontFamily: 'Helvetica',
+  // fontFamily: 'Helvetica',
   fontSize: '20pt',
   width: '100%',
   textAlign: 'center',
@@ -43,7 +44,8 @@ const dividerStyle = {
   width: '100%',
   // margin: 'auto',
   paddingBottom: '10px',
-  borderBottom: '1px solid #1d1d5e'
+  borderBottom: '1px solid #ccc'
+  // borderBottom: '1px solid #1d1d5e'
 }
 
 
@@ -60,7 +62,7 @@ const CoverLetter = () => {
           </div>
         </div>
         <div style={dividerStyle}></div>
-        <div style={{ margin: '.25in 0' }}>
+        <div style={{ margin: '.25in 0', fontFamily: 'Helvetica' }}>
           <div>
             mbahoshy@gmail.com
           </div>
@@ -74,7 +76,7 @@ const CoverLetter = () => {
       
         <div style={{ margin: '.5in 0' }}>
           <div>3/12/2022</div>
-          <div>GitHub - Application for Senior Software Engineer</div>
+          <div style={{ fontWeight: 'bold' }}>GitHub - Application for Senior Software Engineer</div>
         </div>
 
         <CoverLetterBody />
