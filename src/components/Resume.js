@@ -84,6 +84,7 @@ const Resume = () => {
           </Section>
           <Section
             title="WineXRay"
+            minititle="Phenolic insights and Analytics"
           >
             <p>
               Worked with the founder to use his proprietary method of measuring wine phenolics to create a SAAS product.
@@ -93,18 +94,20 @@ const Resume = () => {
           </Section>
           <Section
             title="MACOM"
+            minititle="Partners from RF to Light"
           >
             <p>
-              Created a family of internal administrative applications, including a central product respotistory that provides
+              Created a family of internal administrative applications, including a central product repository that provides
               APIs, authentication, and priviledged file access to a variety of applications.
             </p>
           </Section>
           <Section
             title="Allegro Microsystems"
+            minititle="Semiconductor Technologies"
           >
             <p>
               Created a family of internal administrative appliactions. The central application was a product hub
-              that served as a central respotistory of product data. 
+              that served as a central repository of product data. 
             </p>
           </Section>
           <Section

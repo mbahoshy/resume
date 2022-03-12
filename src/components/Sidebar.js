@@ -78,13 +78,15 @@ const Sidebar = () => {
 
         <div style={spacerStyle}></div>
         <div style={headerStyle}>Roles</div>
-        <div>Technical Business Consulting</div>
+        {/* <div>Technical Business Consulting</div> */}
+        <div>Department Lead</div>
         <div>Project Manager</div>
         <div>Lead Developer</div>
-        <div>Project Architect</div>
+        {/* <div>Project Architect</div> */}
         <div>Scrum Master</div>
-        <div>New Project Development</div>
-        <div>Customer Relationship</div>
+        <div>Business Development</div>
+        <div>Technical Consultant</div>
+        <div>Customer Relations</div>
 
 {/* 
         <div>Design and Estimate New Projects</div>
