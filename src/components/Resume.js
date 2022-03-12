@@ -46,8 +46,7 @@ const Resume = () => {
             <p>
               In 2014 I joined SmartSource Management as a Jr. developer working out of Seattle.
               We specialized in providing technical and business consulting for companies of all sizes.
-              {/* We specialized in providing custom solutions to business is all aspects of their operations. */}
-              This included system integration, administration tools, automation, ecommerce, and business strategy.
+              This included system integration, automation, ecommerce, administration tools, and business strategy.
             </p>
             <p>
               By 2017 I was managing several clients - from quoting, design, and architecture through implementation and delivery.
@@ -58,13 +57,14 @@ const Resume = () => {
             <p>
               In 2021, Solderworks was acquired by BIRD Analytics - an analytics and intelligence solution for big data.
               I was promoted to head of development, and oversaw our US and India teams.
-              During this transition, I worked to develop culture in my department, institute company processes, and offer technical advisement.
+              During this transition, I worked to develop culture in my department, institute company processes, and provide technical expertise.
               As a department head, I tracked the health and profitability of all projects in our department.
               I continued to maintain relationships with our existing clients, and oversaw the continued quality of our deliverables.
             </p>
           </Section>
           <Section
             title="Silver Oak Wineries"
+            minititle="Napa Valley Wines"
           >
             <p>
               Actively managed a family of four ecommerce web applications. Built and maintained custom ERP system
@@ -98,7 +98,7 @@ const Resume = () => {
           >
             <p>
               Created a family of internal administrative applications, including a central product repository that provides
-              APIs, authentication, and priviledged file access to a variety of applications.
+              APIs, authentication, and privileged file access to a variety of applications.
             </p>
           </Section>
           <Section
@@ -106,8 +106,8 @@ const Resume = () => {
             minititle="Semiconductor Technologies"
           >
             <p>
-              Created a family of internal administrative appliactions. The central application was a product hub
-              that served as a central repository of product data. 
+              Consulted in a variety of technical applications, including an application to distribute privileged
+              software and manuals to its customer base. Designed and built central product ERP.
             </p>
           </Section>
           <Section

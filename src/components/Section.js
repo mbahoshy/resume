@@ -36,7 +36,7 @@ const Section = ({
                 fontSize: '10pt',
                 fontStyle: 'italic',
                 fontWeight: '400',
-                paddingLeft: '20px'
+                paddingLeft: '10px'
               }}
             >
               {minititle}
