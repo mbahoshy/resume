@@ -37,7 +37,7 @@ const CoverLetterBody = () => {
       </p>
 
       <p>
-        GitHub has been a part of my journey since the beginning. Looking back through my repositories now,
+        GitHub has been a part of my journey since the beginning. Looking through my repositories now,
         is like looking back through a photo book. You can even find this cover letter and resume on my GitHub account!
       
       </p>
