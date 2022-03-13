@@ -116,7 +116,7 @@ const Resume = () => {
           >
             <p>
               Created Mobile and Desktop web based applications to track material pickups and schedule inspections
-              across jobistes.
+              across jobsites.
 
             </p>
           </Section>

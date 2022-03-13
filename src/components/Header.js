@@ -23,7 +23,7 @@ const Header = () => {
           <div style={{
             // fontSize: '16pt',
             fontStyle: 'italic'
-            }}>Senior Project Manager</div>
+            }}>Senior Software Engineer</div>
         </div>
     </div>
   )
