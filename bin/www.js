@@ -17,6 +17,8 @@ const main = async () => {
       const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox']
       });
+
+      const { filename } = req.query;
     
       const page = await browser.newPage();
 
@@ -49,7 +51,7 @@ const main = async () => {
 
 
       res.writeHead(200, {
-        'Content-Disposition': `attachment; filename="test.pdf"`,
+        'Content-Disposition': `attachment; filename="${filename || 'test'}.pdf"`,
         'Content-Type': 'pdf',
       })
 

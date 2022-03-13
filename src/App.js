@@ -9,8 +9,8 @@ function App() {
   const coverStr = ReactDOMServer.renderToStaticMarkup(<CoverLetter />);
   return (
     <div className="App">
-      <a href={`http://localhost:2000/${encodeURIComponent(coverStr)}`}>Download Cover Letter</a>
-      <a href={`http://localhost:2000/${encodeURIComponent(str)}`}>Download Resume</a>
+      <a href={`http://localhost:2000/${encodeURIComponent(coverStr)}?filename=Matthew-Ross-Cover`}>Download Cover Letter</a>
+      <a href={`http://localhost:2000/${encodeURIComponent(str)}?filename=Matthew-Ross-Resume`}>Download Resume</a>
       <CoverLetter />
       <Resume />
     </div>

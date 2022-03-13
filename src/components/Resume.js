@@ -44,7 +44,7 @@ const Resume = () => {
             subtitle="June 2014 - Present"
           >
             <p>
-              In 2014 I joined SmartSource Management as a Jr. developer working out of Seattle.
+              In 2014 I joined SmartSource Management as a junior developer working out of Seattle.
               We specialized in providing technical and business consulting for companies of all sizes.
               This included system integration, automation, ecommerce, administration tools, and business strategy.
             </p>
