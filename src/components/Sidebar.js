@@ -76,6 +76,7 @@ const Sidebar = () => {
         <Item>Javascript</Item>
         <Item>HTML/HTML5</Item>
         <Item>CSS/CSS3</Item>
+        <Item>Bootstrap</Item>
         <Item>Flexbox</Item>
         <Item>C#</Item>
         <Item>.NET</Item>
@@ -85,6 +86,8 @@ const Sidebar = () => {
         <Item>Mongo</Item>
         <Item>SQL</Item>
         <Item>NoSQL</Item>
+        <Item>Git</Item>
+        {/* <Item>Jira</Item> */}
         {/* <div>RESTful design</div> */}
 
 
